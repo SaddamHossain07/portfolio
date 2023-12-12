@@ -8,26 +8,30 @@
     box-sizing: border-box;
 }
 
+
+
+/* https://i.ibb.co/XDwGhjB/5.png */
+
 .skill-bg {
-    background-image: url('../../../../public/1.png');
+    background-image: url('https://i.ibb.co/JHvmM0S/1.png');
     background-size: cover;
     background-position: center;
 }
 
 .home-bg {
-    background-image: url('../../../../public/2.png');
+    background-image: url('https://i.ibb.co/P5BR2M9/2.png');
     background-size: cover;
     background-position: center;
 }
 
 .project-bg {
-    background-image: url('../../../../public/4.png');
+    background-image: url('https://i.ibb.co/TRdxMfR/4.png');
     background-size: cover;
     background-position: center;
 }
 
 .contact-bg {
-    background-image: url('../../../../public/3.png');
+    background-image: url('https://i.ibb.co/yffmfsS/3.png');
     background-size: cover;
     background-position: center;
 }
