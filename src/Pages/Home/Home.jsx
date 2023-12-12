@@ -1,8 +1,7 @@
-import './Home.css'
-import Contact from '../../Contact/Contact';
-import Skills from '../../Skils/Skills';
-import About from '../../About/About';
-import Projects from '../../Projects/Projects';
+import Contact from "../Contact/Contact";
+import Projects from "../Projects/Projects";
+import Skills from "../Skils/Skills";
+import About from "../About/About"
 
 
 const Home = () => {

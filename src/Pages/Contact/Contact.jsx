@@ -11,7 +11,7 @@ const Contact = () => {
         <div data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-            className="project-bg rounded-xl pb-10 h-[calc(100vh-50px)] shadow-lg overflow-hidden sticky top-6 px-24 py-12 text-slate-300">
+            className="contact-bg rounded-xl pb-10 h-[calc(100vh-50px)] shadow-lg overflow-hidden sticky top-6 px-24 py-12 text-slate-300">
             <div className=''>
                 <h2 className='text-3xl text-center font-black'>Reach Me Out</h2>
                 <h3 className='mt-6 text-justify'>Thank you for exploring my portfolio! I'm eager to hear from you and discuss how we can collaborate or explore exciting opportunities together. Feel free to drop me a message, whether it's about a potential project, partnership, or just a friendly conversation. I look forward to connecting with you! Please don't hesitate to reach out through any of the following channels:</h3>

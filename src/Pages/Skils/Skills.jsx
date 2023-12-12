@@ -77,7 +77,7 @@ const Skills = () => {
 
                         <button onClick={handleDownload} className='btn btn-sm bg-purple-400 text-indigo-950 hover:text-slate-200 btn-ghost rounded-md'><MdCloudDownload />Resume</button>
 
-                        <Link to="/project">
+                        <Link to="/projects">
                             <button onClick={handleDownload} className='btn btn-sm bg-purple-400 text-indigo-950 hover:text-slate-200 btn-ghost rounded-md'><GoProjectSymlink />My Work</button>
                         </Link>
 
