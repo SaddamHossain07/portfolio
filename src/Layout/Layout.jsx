@@ -30,13 +30,17 @@ const Layout = () => {
                                 <li>About</li>
                             </Link>
                             <li>|</li>
-                            <Link to="/project">
+                            <Link to="/skills">
+                                <li>Skills</li>
+                            </Link>
+                            <li>|</li>
+                            <Link to="/projects">
                                 <li>Projects</li>
                             </Link>
                             <li>|</li>
-                            <li>Articles</li>
-                            <li>|</li>
-                            <li>Contact</li>
+                            <Link to="/contact">
+                                <li>Contact</li>
+                            </Link>
                         </ul>
 
                         <nav className="flex text-2xl mt-6 gap-2 justify-center text-gray-600">

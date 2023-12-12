@@ -1,20 +1,21 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
+import { EffectCoverflow, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import './css/style.css';
 
-// import required modules
-import { EffectCoverflow, Pagination } from 'swiper/modules';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Card = () => {
     return (
         <div className='mt-4 grid grid-cols-1'>
-            <div className='w-full bg-indigo-900 sticky top-0 px-4 rounded-md'>
+            <div data-aos="fade-up"
+                data-aos-duration="3000"
+                className='w-full bg-indigo-900 sticky top-0 px-4 rounded-md'>
                 <Swiper
                     effect={'coverflow'}
                     grabCursor={true}
@@ -64,7 +65,7 @@ const Card = () => {
                 </div>
             </div>
 
-            <div className='w-full bg-indigo-900 sticky top-0 px-4 rounded-md'>
+            <div className='w-full bg-indigo-900 mt-24 sticky top-0 px-4 rounded-md'>
                 <Swiper
                     effect={'coverflow'}
                     grabCursor={true}
@@ -119,7 +120,7 @@ const Card = () => {
                 </div>
             </div>
 
-            <div className='w-full bg-indigo-900 sticky top-0 px-4 rounded-md'>
+            <div className='w-full bg-indigo-900 mt-24 sticky top-0 px-4 rounded-md'>
                 <Swiper
                     effect={'coverflow'}
                     grabCursor={true}
