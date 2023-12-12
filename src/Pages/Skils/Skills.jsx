@@ -5,7 +5,7 @@ import { GoProjectSymlink } from "react-icons/go";
 
 const Skills = () => {
     const handleDownload = () => {
-        const pdfPath = '/resume_of_saddam.pdf';
+        const pdfPath = '/resume.pdf';
         // Create a temporary anchor element to download the resume
         const a = document.createElement('a');
         a.href = pdfPath;
