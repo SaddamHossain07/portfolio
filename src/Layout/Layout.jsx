@@ -43,7 +43,7 @@ const Layout = () => {
                             </Link>
                         </ul>
 
-                        <nav className="flex text-2xl mt-6 gap-2 justify-center text-gray-600">
+                        <nav className="flex text-2xl my-6 gap-2 justify-center text-gray-600">
                             <a href="https://github.com/SaddamHossain07">
                                 <FaGithubSquare />
                             </a>

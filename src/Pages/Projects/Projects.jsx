@@ -10,7 +10,7 @@ const Projects = () => {
             <div data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"
-                className="project-bg rounded-xl pb-10 h-[calc(100vh-50px)] shadow-lg overflow-hidden sticky top-6 px-24 py-12 text-slate-300">
+                className="project-bg rounded-xl h-[calc(100vh-50px)] shadow-lg overflow-hidden sticky top-6 p-6 lg:px-24 lg:py-12 text-slate-300">
                 <Scrollbars autoHide
                     autoHideTimeout={500}
                     autoHideDuration={100}
