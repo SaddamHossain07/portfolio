@@ -8,6 +8,7 @@ import { FaAnglesDown } from 'react-icons/fa6';
 import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaMapMarkerAlt } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 AOS.init();
 
 const Home = () => {
@@ -100,7 +101,10 @@ const Home = () => {
                             <button onClick={handleDownload} className='bg-purple-300 text-gray-800 font-semibold uppercase flex gap-2 items-center rounded-md px-4 py-2 hover:cursor-pointer'>
                                 <MdCloudDownload />
                                 Resume</button>
-                            <div className='bg-purple-300 text-gray-800 font-semibold uppercase rounded-md px-8 py-2'>Portfolio</div>
+                            <Link to="/project">
+                                <div className='bg-purple-300 text-gray-800 font-semibold uppercase rounded-md px-8 py-2'>Portfolio</div>
+                            </Link>
+
                         </div>
                     </div>
                 </Scrollbars>
