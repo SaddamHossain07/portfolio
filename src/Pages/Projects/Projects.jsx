@@ -20,14 +20,12 @@ const Projects = () => {
                         <h3 className='mt-6 text-justify'>Welcome to the showcase of my front-end journey where ReactJS is the brush and user interfaces are the canvas. Each project is a meticulous creation, a symphony of code and design that brings digital experiences to life. Step into the world of responsive and dynamic React applications, where every click tells a story of seamless interactions and visually captivating designs.</h3>
                     </div>
                     <div className='mt-6 flex gap-2 justify-center'>
-                        <button className='btn btn-sm bg-gray-600 rounded-sm'>React</button>
-                        <button className='btn btn-sm bg-gray-600 rounded-sm'>React</button>
-                        <button className='btn btn-sm bg-gray-600 rounded-sm'>React</button>
-                        <button className='btn btn-sm bg-gray-600 rounded-sm'>React</button>
+                        <button className='btn btn-sm btn-outline text-slate-300 btn-ghost rounded-sm'>ReactJS</button>
+                        <button className='btn btn-sm btn-outline text-slate-300 btn-ghost rounded-sm'>NextJS</button>
+                        <button className='btn btn-sm btn-outline text-slate-300 btn-ghost rounded-sm'>Tailwind</button>
+                        <button className='btn btn-sm btn-outline text-slate-300 btn-ghost rounded-sm'>MUI</button>
                     </div>
-                    <div className='mt-4 grid grid-cols-1'>
-                        <Card></Card>
-                    </div>
+                    <Card></Card>
                 </Scrollbars>
             </div>
         </>
