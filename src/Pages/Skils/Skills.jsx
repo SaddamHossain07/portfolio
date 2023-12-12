@@ -4,16 +4,29 @@ import { Link } from 'react-router-dom';
 import { GoProjectSymlink } from "react-icons/go";
 
 const Skills = () => {
+    // const handleDownload = () => {
+    //     const pdfPath = '/resume.pdf';
+    //     // Create a temporary anchor element to download the resume
+    //     const a = document.createElement('a');
+    //     a.href = pdfPath;
+    //     a.download = 'resume.pdf';
+    //     document.body.appendChild(a);
+    //     a.click();
+    //     document.body.removeChild(a);
+    // }
+
     const handleDownload = () => {
-        const pdfPath = '/resume.pdf';
+        const pdfPath = '/public/resume.pdf';
+        const absoluteUrl = `${window.location.origin}${pdfPath}`;
+
         // Create a temporary anchor element to download the resume
         const a = document.createElement('a');
-        a.href = pdfPath;
+        a.href = absoluteUrl;
         a.download = 'resume.pdf';
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
-    }
+    };
 
     return (
         <div data-aos="flip-left"
